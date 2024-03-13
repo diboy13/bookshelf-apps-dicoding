@@ -181,3 +181,27 @@ p {
   background-color: darkred;
   color: white;
 }
+
+.action {
+  display: flex;
+  gap: 3px;
+}
+
+@media (max-width: 470px) {
+  #searchBook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #searchSubmit {
+    min-width: 190px;
+    height: 30px;
+  }
+
+  .action {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
