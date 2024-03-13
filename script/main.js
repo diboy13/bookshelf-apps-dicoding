@@ -100,7 +100,7 @@ function makeShelf(shelfObject) {
   if (isComplete) {
     const unreadedButton = document.createElement("button");
     unreadedButton.classList.add("green-unreaded");
-    unreadedButton.innerText = "Belum selesai di Baca";
+    unreadedButton.innerText = "Belum selesai dibaca";
     unreadedButton.addEventListener("click", function () {
       undoToUnreaded(id);
     });
