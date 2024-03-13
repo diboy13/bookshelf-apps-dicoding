@@ -107,7 +107,7 @@ function makeShelf(shelfObject) {
 
     const deleteButtonReaded = document.createElement("button");
     deleteButtonReaded.classList.add("red-unreaded");
-    deleteButtonReaded.innerText = "Hapus book";
+    deleteButtonReaded.innerText = "Hapus buku";
     deleteButtonReaded.addEventListener("click", function () {
       deleteShelf(id);
     });
@@ -127,7 +127,7 @@ function makeShelf(shelfObject) {
 
     const deleteButtonUnreaded = document.createElement("button");
     deleteButtonUnreaded.classList.add("red-readed");
-    deleteButtonUnreaded.innerText = "Hapus book";
+    deleteButtonUnreaded.innerText = "Hapus buku";
     deleteButtonUnreaded.addEventListener("click", function () {
       deleteShelf(id);
     });
